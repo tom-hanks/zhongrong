@@ -1,0 +1,39 @@
+.box{ border: 1px solid #dbdbdb; margin-bottom: 17px; }
+
+.boxSearch{height: 51px; padding-top: 23px; padding-left:54px; border-bottom: 1px solid #dbdbdb; }
+.boxSearch>span{display: inline-block;}
+.boxSearch>ul{display: inline-block; margin-left: 20px;}
+.boxSearch>ul>li{display: inline-block;  padding:5px 10px; margin-right: 11px; cursor: pointer; }
+.boxSearch>ul>li.all{ margin-right: 0px;}
+.boxSearch>ul>li.hit{border: 1px solid #d5041f; color: #d5041f}
+
+.gridTable{height: 500px;}
+.gridTable table{width: 100%; border-collapse: collapse;}
+.gridTable th{ background: #f4f4f4; padding: 20px 0; text-align: center; color: #333; border-bottom: 1px solid #dbdbdb;}
+.gridTable td{ background: #fff; padding: 20px 0; text-align: center; color: #666; border-bottom: 1px solid #dbdbdb;}
+
+.buybtn{ border: 0px; width: 133px; height: 31px; background: url("/static/lend/btnbg.jpg") no-repeat; color: #fff; cursor: pointer;}
+.buybtn2{ border: 0px; width: 95px; height: 31px; background: url("/static/lend/btn2bg.jpg") no-repeat; color: #fff; cursor: pointer;}
+
+.countBox{width: 133px; margin: 0 auto; margin-bottom: 5px;}
+.count{ width: 91px; height: 31px; border: #dcdcdc 1px solid; padding: 0 20px; position: relative;}
+.countTxt{width: 100%; text-align: center; height: 30px; border: 0px; outline: none;}
+.count .add{ position: absolute; width: 20px; border-left: 1px solid #dcdcdc; right:0px; height: 31px; line-height: 31px; cursor: pointer;}
+.count .minus{ position: absolute; width: 20px; border-right: 1px solid #dcdcdc; left:0px; height: 29px; padding-top: 2px;  cursor: pointer;}
+
+.rateNum{color: #d5041f; font-size: 18px;}
+.ratePecent{ color:#d5041f;}
+
+.title1{ font-size: 16px; color: #0c0150; margin-right: 5px;}
+
+.title2{ font-size: 16px; color: #333;}
+.num{ font-size: 20px; color: #333;}
+.title3{ font-size: 14px; color: #999;}
+.title4{ color: #999;}
+
+.num2{font-size: 12px; color: #999; }
+.num3{ font-size: 12px; color: #a92334;}
+
+.fjhtd1{ text-align: left;}
+.fjhtd1>div{padding-left: 60px;}
+.td1icon{position: absolute; top: 2px; left: 31px;}

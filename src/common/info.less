@@ -1,0 +1,585 @@
+.info-top{
+	width:100%;
+	position:relative;
+	.top-content{
+		// border:1px solid red;
+		max-width:1200px;
+		margin: 0 auto;
+		>div{
+			position: absolute;
+			z-index: 1;
+			bottom: 18%;
+			width: 50%;
+		}
+	}
+}
+.tabs-wrapper{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding-top: 24px;
+	.info-tabs{
+		ul{
+			font-size:0;
+			li{
+				display: inline-block;
+				width:12.5%;
+				text-align: center;
+				a{
+					font-size:16px;
+					&.router-link-active{
+						color: #4492e2;
+						display: block;
+						padding: 10px 0;
+						border-bottom: 2px solid #4492e2;
+					}
+				}
+			}
+		}
+	}
+	.tabs-container{
+		margin-top: 40px;
+		margin-bottom:70px;
+		.tabs-items-content{
+			color: #757575;
+			>div{
+				&.shareholder-info,&.organizational-info,&.personnel-info{
+					text-align: center;
+				}
+				>h3{
+					font-size:20px;
+					color: #333;;
+					letter-spacing: 1.5px;
+					width: 180px;
+					margin: 50px auto;
+					height: 20px;
+					line-height: 20px;
+					text-align: center;
+					position: relative;
+					&::after{
+						position: absolute;
+						display: block;
+						content:'';
+						width:24px;
+						height:3px;
+						background:#4492e2;
+						right: 0;
+						top: 8px;
+					}
+					&::before{
+						position: absolute;
+						display: block;
+						content:'';
+						width:24px;
+						height:3px;
+						background:#4492e2;
+						left: 0;
+						top: 8px;
+					}
+				}
+				&.business-info,&.management-info,&.major-matters{
+					.commerce-information{
+						border: 1px solid #dfdfdf;
+						li{
+							p{
+								display: inline-block;
+								font-size:14px;
+								color: #757575;
+								padding: 20px 15px;
+								box-sizing: border-box;
+								&.commerce-title{
+									width:22.5%;
+									vertical-align: middle;
+								}
+								&.commerce-text{
+									width:77.5%;
+									border-left: 1px solid #dfdfdf;
+									vertical-align: middle;
+								}
+							}
+							&:nth-child(even){
+								background:#f3f6f9;
+							}
+						}
+					}
+				}
+				>ul{
+					font-size:0;
+					margin-top:30px;
+				}
+				>p.total-person{
+					margin:-40px 0 30px 0;
+				}
+				&.institutional-info{
+					.branch-content{
+						border-top: 1px solid #dfdfdf;
+						border-bottom: 1px solid #dfdfdf;
+						ul{
+							font-size:0;
+							// border:1px solid #dfdfdf;
+							text-align: center;
+							li{
+								display: inline-block;
+    							border-left: 1px solid #dfdfdf;
+								box-sizing: border-box;
+								height: 60px;
+								line-height: 60px;
+								&:first-child{
+									width: 30%;
+								}
+								&:nth-child(2){
+									width:14%;
+								}
+								&:nth-child(3){
+									width:12%;
+								}
+								&:nth-child(4){
+									width:9%;
+								}
+								&:nth-child(5){
+									width:12%;
+								}
+								&:nth-child(6){
+									width:12%;
+								}
+								&:nth-child(7){
+									width:11%;
+									border-right:1px solid #dfdfdf;
+								}
+								p{
+									font-size:14px;
+								}
+							}
+							&:nth-child(odd){
+								background:#f3f6f9;
+							}
+							&.branch-title{
+								background:#fff;
+							}
+						}
+					}
+				}
+				&.channel-info{
+					ul{
+						font-size: 0;
+						li{
+							display: inline-block;
+							width:25%;
+							text-align: center;
+							p{
+								font-size:16px;
+								margin-top:20px;
+							}
+						}
+					}
+				}
+				&.record-info,&.examine-info{
+					ul{
+						li{
+							p{
+								font-size:14px;
+								line-height: 20px;
+								position: relative;
+								margin:15px 0;
+								padding-left: 16px;
+								&:before{
+									position: absolute;
+									display: block;
+									content:'';
+									width:3px;
+									height:20px;
+									left:0;
+									top:0;
+									background:#4492e2;
+								}
+							}
+							div{
+								span{
+									font-size: 14px;
+									line-height: 52px;
+									vertical-align: middle;
+									padding-left:16px;
+								}
+								img{
+									vertical-align: middle;
+
+								}
+								a{
+									color: #4492e2;
+									font-size:14px;
+								}
+								&.confime-info{
+									text-align: center;
+									img{
+										margin-top:60px;
+									}
+								}
+							}
+						}
+					}
+				}
+				&.risk-info{
+					p{
+						color: #666;
+						line-height: 26px;
+					}
+					.risk-content{
+						>div{
+							h4{
+								font-size:20px;
+								color: #333;
+								font-weight: bolder;
+								margin:40px 0 30px 0;
+							}
+							>div{
+								text-align: center;
+								img{
+									margin:50px 0 40px 0;
+								}
+							}
+						}
+					}
+				}
+				&.examine-info{
+					max-width: 1042px;
+					margin:0 auto;
+					div{
+						img:first-child{
+							margin-right:70px;
+						}
+					}
+				}
+				&.charge-standard{
+					.branch-content{
+						border-top: 1px solid #dfdfdf;
+						border-bottom: 1px solid #dfdfdf;
+						ul{
+							font-size:0;
+							text-align: center;
+							li{
+								display: inline-block;
+								border-left: 1px solid #dfdfdf;
+								box-sizing: border-box;
+								height: 50px;
+								line-height: 50px;
+								width: 25%;
+								&:nth-child(4){
+									border-right:1px solid #dfdfdf;
+								}
+								p{
+									font-size:14px;
+								}
+							}
+							&:nth-child(odd){
+								background:#f3f6f9;
+							}
+							&.branch-title{
+								background:#fff;
+							}
+						}
+					}
+				}
+				&.major-matters{
+					.commerce-information{
+						li{
+							p{
+								padding: 20px 30px;
+								&.commerce-title{
+									width:42%;
+									border-right: 1px solid #dfdfdf;
+								}
+								&.commerce-text{
+									width:58%;
+									border-left:none;
+								}
+							}
+						}
+					}
+				}
+				&.risk-hints,&.laws-regulations{
+					ul{
+						margin-top:4px;
+						li{
+							font-size:14px;
+							line-height: 20px;
+							line-height:28px;
+							color: #757575;
+							dl{
+								margin-left:20px;
+							}
+						}
+					}
+				}
+				&.laws-regulations{
+					p{
+						position: relative;
+						padding-left: 16px;
+						color: #757575;
+						&::before{
+							position: absolute;
+							display: block;
+							content:'';
+							width: 3px;
+							height: 20px;
+							left: 0;
+							top: 0;
+							background: #4492e2;
+						}
+					}
+					ul{
+						li{
+							a{
+								position: relative;
+								padding-left:44px;
+								color: #757575;
+								&::before{
+									position: absolute;
+									display: block;
+									content:'';
+									width: 5px;
+									height: 5px;
+									border-radius: 50%;
+									left: 28px;
+    								top: 12px;
+									background: #4492e2;
+								}
+							}
+						}
+					}
+				}
+				&.net-loan-time{
+					h5{
+						font-size:14px;
+						font-weight: bolder;
+						color: #757575;
+						line-height: 30px;
+					}
+					p{
+						font-size:14px;
+						color: #757575;
+						line-height: 28px;
+					}
+				}
+				&.contact-info{
+					ul{
+						text-align:center;
+						li{
+							display: inline-block;
+							width: 480px;
+							border:1px solid #dfdfdf;
+							margin:20px;
+							text-align: left;
+							position: relative;
+							padding:30px;
+							height:94px;
+							vertical-align: middle;
+							i{
+								position: absolute;
+								text-align: left;
+							}
+							div{
+								p{
+									font-size:14px;
+									color: #757575;
+									padding-left:54px;
+								}
+							}
+
+						}
+					}
+				}
+			}
+		}
+	}
+}
+.bank-deposit-wrapper{
+	max-width: 1200px;
+	margin:0 auto;
+	div{
+		h2{
+			text-align: center;
+			font-size:25px;
+			margin:70px 0;
+		}
+		&:nth-child(even){
+			h2{
+				color:#12adff;
+			}
+		}
+		&.why{
+			>p{
+				font-size:16px;
+				line-height: 36px;
+				letter-spacing: 0.5px;
+				&:nth-of-type(2){
+					margin-top:30px;
+				}
+			}
+		}
+		&.advantage{
+			ul{
+				font-size:0;
+				li{
+					display: inline-block;
+					width:25%;
+					position: relative;
+					div{
+						position:absolute;
+						z-index: 1;
+						top: 50%;
+						text-align: center;
+						left: 50%;
+						transform: translate(-50%,-50%);
+						width: 186px;
+						height:120px;
+						p{
+							font-size:16px;
+							max-width:186px;
+							color: #666;
+							&.title{
+								color: #fff;
+							}
+							&:nth-child(2){
+								margin-top: 18%;
+								line-height: 24px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.select-bank{
+			ul{
+				li{
+					padding:27px 0;
+					img{
+						float: left;
+						padding-left:40px;
+					}
+					div{
+						padding-left:200px;
+						p{
+							line-height: 28px;
+							&.titles{
+								font-size:20px;
+							}
+							&:nth-child(2){
+								color:#666;
+								margin-top:20px;
+							}
+						}
+					}
+				}
+			}
+		}
+		&.bank-system{
+			text-align: center;
+		}
+		&.common-problem{
+			ul{
+				li{
+					padding:23px 0;
+					p:nth-child(1){
+						font-size:16px;
+						line-height: 28px;
+						letter-spacing: 0.5px;
+					}
+					p:nth-child(2){
+						color: #666;
+						line-height: 28px;
+						letter-spacing: 0.5px;
+					}
+				}
+			}
+		}
+		&.bank-box{
+			margin-bottom:70px;
+		}
+	}
+}
+.report-box img{
+	display: block;
+}
+@media (max-width:1200px) {
+	.tabs-wrapper{
+		.tabs-container{
+			.tabs-items-content{
+				>div{
+					&.contact-info{
+						ul{
+							text-align:center;
+							li{
+								display: inline-block;
+								width: 400px;
+								border:1px solid #dfdfdf;
+								margin:15px;
+								text-align: left;
+								position: relative;
+								padding:30px;
+								height:94px;
+								vertical-align: middle;
+								i{
+									position: absolute;
+									text-align: left;
+								}
+								div{
+									p{
+										font-size:14px;
+										color: #757575;
+										padding-left:54px;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	.bank-deposit-wrapper{
+		div{
+			h2{
+
+			}
+			&.why{
+			}
+			&.advantage{
+				ul{
+					font-size:0;
+					li{
+						div{
+							width: 150px;
+							height:100px;
+							p{
+								font-size:13px;
+								max-width:150px;
+								&:nth-child(2){
+									margin-top: 18%;
+									line-height: 24px;
+								}
+							}
+						}
+					}
+				}
+			}
+
+		}
+	}
+}
+@media (max-width:1080px) {
+	.tabs-wrapper{
+		.tabs-container{
+			.tabs-items-content{
+				>div{
+					&.examine-info{
+						max-width: 1024px;
+						div{
+							img:first-child{
+								margin-right:35px;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
